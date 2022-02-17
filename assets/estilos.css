@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainsection{
+    background-image: url("../images/wp2747667.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    height: 800px;
+    width: 1005;
+}
+.navv{
+    opacity: 0.5;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+#footer{
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.753);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    
+
+}
+#footer> ul{
+    height: fit-content;
+    display: inline;
+    width: 100px;
+}
+
+
+
+#ad{
+    position: relative;
+    width: 500px;
+    height: auto;
+    text-transform: uppercase;
+    left: 500px ;
+
+}
+#ad>button{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(214, 55, 55);
+    font-weight: 500;
+    font-size: x-large;
+    padding: 0.25rem;
+    color: white;
+    text-transform: capitalize;
+
+
+}
